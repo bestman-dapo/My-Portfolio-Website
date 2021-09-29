@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/resume.css">
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <title>OLADAPO OYEBANJI</title>
 </head>
