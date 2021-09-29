@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.0.7/css/all.css">
-    <title>Document</title>
+    <title>OLADAPO OYEBANJI</title>
 </head>
 <body>
     <div class="nav-bar">
