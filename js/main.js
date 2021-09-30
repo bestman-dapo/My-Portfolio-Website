@@ -24,9 +24,10 @@ scrollAnim = () => {
 
         if (elementPos < windowHt ) {
             loader[i].classList.add('moveIn');
-        }else{
-            loader[i].classList.remove('moveIn');
         }
+        //else{
+        //    loader[i].classList.remove('moveIn');
+        //}
     }
     for (let i = 0; i < interestTab.length; i++) {
         let elementPos = interestTab[i].getBoundingClientRect().top;
@@ -35,9 +36,10 @@ scrollAnim = () => {
 
         if (elementPos < windowHt ) {
             interestTab[i].classList.add('pop');
-        }else{
-            interestTab[i].classList.remove('pop');
         }
+        //else{
+           // interestTab[i].classList.remove('pop');
+        //}
     }
 
     let elementPos = randomFactImg.getBoundingClientRect().top;
