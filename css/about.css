@@ -208,22 +208,22 @@
     background: rgba(0, 0, 0, 0.5);
 }
 .interestTab1.pop{
-    animation: popper 1s  backwards;
+    animation: popper 1s  both;
 }
 .interestTab2.pop{
-    animation: popper 1s  backwards;
+    animation: popper 1s  both;
     animation-delay: 0.2s;
 }
 .interestTab3.pop{
-    animation: popper 1s  backwards;
+    animation: popper 1s  both;
     animation-delay: 0.4s;
 }
 .interestTab4.pop{
-    animation: popper 1s linear backwards;
+    animation: popper 1s  both;
     animation-delay: 0.6s;
 }
 .interestTab5.pop{
-    animation: popper 1s  backwards;
+    animation: popper 1s  both;
     animation-delay: 0.8s;
 }
 .interestTab6.pop{
