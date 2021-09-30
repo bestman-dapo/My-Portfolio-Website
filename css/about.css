@@ -195,7 +195,7 @@
 .interestTab{
     width: 250px;
     height: 60px;
-    display: none;
+    display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 0 20px;
@@ -203,30 +203,16 @@
     border-radius: 3px;
     background: rgba(0, 0, 0, 0.8);
     color: whitesmoke;
+    visibility: hidden;
 }
-.interestTab:hover{
-    background: rgba(0, 0, 0, 0.5);
-}
-.interestTab1.pop{
-    animation: popper 1s  both;
-}
-.interestTab2.pop{
-    animation: popper 1s  both;
-}
-.interestTab3.pop{
-    animation: popper 1s  both;
-}
-.interestTab4.pop{
-    animation: popper 1s  both;
-}
-.interestTab5.pop{
-    animation: popper 1s  both;
-}
-.interestTab6.pop{
+
+.interestTab.pop{
+    visibility: visible;
     animation: popper 1s  both;
 }
 @keyframes popper {
     0%{
+        opacity: 0;
         transform: scale(0.8);
     }
     100%{
@@ -435,11 +421,29 @@
         border-radius: 3px;
         background: rgba(0, 0, 0, 0.8);
         color: whitesmoke;
+        visibility: hidden;
     }
+    .interestTab.pop{
+        visibility: visible;
+        animation: popper 1s  both;
+    }
+    
     .interestName{
         margin-left: 10px;
         font-size: 1.2rem;
     }
+    @keyframes popper {
+        0%{
+            opacity: 0;
+            transform: scale(0.8);
+        }
+        100%{
+            opacity: 1;
+            transform: scale(1);
+            display: flex;
+        }
+    }
+
     .skills{
         width: 100%;
         padding: 50px 0;
