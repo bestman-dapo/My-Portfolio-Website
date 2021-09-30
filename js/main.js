@@ -32,9 +32,9 @@ scrollAnim = () => {
     for (let i = 0; i < interestTab.length; i++) {
         let elementPos = interestTab[i].getBoundingClientRect().top;
         let windowHt = window.innerHeight;
-        let revealpoint = 0;
+        let revealpoint = 150;
 
-        if (elementPos < windowHt ) {
+        if (elementPos < windowHt - 150 ) {
             interestTab[i].classList.add('pop');
         }
         //else{
