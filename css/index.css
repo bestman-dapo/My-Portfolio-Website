@@ -15,6 +15,7 @@
     object-fit: cover;
     padding: 80px 80px;
     height: auto;
+    background-color: black;
 }
 .intro{
     width: 50%;
