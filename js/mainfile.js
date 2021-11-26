@@ -14,7 +14,7 @@ var users_name = document.getElementById('usersname');
 window.snapKitInit = () => {
   snap.loginkit.mountButton("login-button", {
     clientId: "6657a894-7ddc-49a4-902e-94240dbb6577",
-    redirectURI: "https://snapchatoauthtest.herokuapp.com/gallery.php",
+    redirectURI: "https://playground.myfela.ng/gallery.php",
     scopeList: [
       "user.display_name",
       "user.bitmoji.avatar"
