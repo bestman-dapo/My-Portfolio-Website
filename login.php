@@ -97,7 +97,7 @@
 
 
 
-       <script src="js/main.js"></script>
+       <script src="js/mainfile.js"></script>
        <script src="js/bootstrap.bundle.min.js"></script>
        <script src="js/index.js"></script>
         <!-- <script src="js/intlTelInput.js"></script> -->

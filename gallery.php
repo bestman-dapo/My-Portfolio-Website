@@ -75,7 +75,7 @@
 </div>
 
 <div id="login-button" style="visibility: hidden;"></div>
-<script src="js/main.js"></script>
+<script src="js/mainfile.js"></script>
 <script src="js/gallery.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 
