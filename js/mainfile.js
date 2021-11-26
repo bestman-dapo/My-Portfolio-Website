@@ -29,7 +29,7 @@ window.snapKitInit = () => {
         
         
 
-        window.location.href = "https://snapchatoauthtest.herokuapp.com/gallery.php";
+        window.location.href = "https://playground.myfela.ng/gallery.php";
 
         
         // console.log(data["data"]["me"]["bitmoji"]["avatar"]);
